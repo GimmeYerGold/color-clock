@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-size: 0;
+}
+
+.wrapper {
+	
+}
+
+
+
+.gradient {
+	width: 100%;
+	height: 1050px;
+	display: inline-block;
+	background: tomato;/* For browsers that do not support gradients */
+	background-image: radial-gradient(circle at center, tomato, yellow);/* Standard syntax (must be last) */
+	position: absolute;
+}
+
+#time {
+	width: 33%;
+	font-size: 60px;
+	color: black;
+	position: relative;
+	text-align: center;
+	top: 38%;
+	/* display: inline-block; */
+	margin: auto;
+}
